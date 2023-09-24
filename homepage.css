@@ -1,0 +1,118 @@
+body{
+    margin: 0px;
+    background-color: #ffe8d6;
+}
+header{
+    width: 100%;
+    height: 300px;
+    background-image: url(https://wallpaperaccess.com/full/2998.jpg);
+    background-attachment: local, scroll;
+}
+header h1{
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 500px;
+    font-family: cursive;
+    font-weight: lighter;
+    font-size: 40px;
+    color: #cb997e;
+    text-shadow: 2px 3px 3px black;
+}
+main{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.card{
+    width: 250px;
+    height: 350px;
+    margin: 5rem;
+    background-color: #ddbea9;
+    border-radius: 8px;
+    transition: all 1s ease;
+}
+.card:hover{
+    transform: scale(1.04);
+    box-shadow: 8px 8px 5px #cb997e;
+}
+.card img{
+    width: 150px;
+    margin: 30px 50px;
+    border-radius: 8px;
+}
+a{
+    font-size: 15px;
+    font-family: cursive;
+    text-decoration: none;
+}
+.home{
+    margin: 50px 80px;
+}
+.modern{
+    margin: 80px;
+}
+.old{
+    margin: 95px;
+}
+
+@media screen and (max-width: 1080px) {
+    header h1{
+       margin-left: 270px;
+    }
+    .card{
+        margin: 50px;
+    }
+}
+@media screen and (max-width: 960px) {
+    header h1{
+        margin-left: 220px;
+     }
+    .card{
+        margin:20px;
+    }
+}
+@media screen and (max-width: 840px) {
+    header{
+        width: 100%;
+    }
+    header h1{
+        font-size: 30px;
+    }
+    main{
+        display: block;
+
+    }
+    .card{
+        margin-left: 300px;
+    }
+}
+@media screen and (max-width: 590px) {
+    header h1{
+        font-size: 25px;
+        margin-left: 130px;
+    }
+    main{
+        display: block;
+
+    }
+    .card{
+        margin-left: 180px;
+    }
+    
+}
+@media screen and (max-width: 440px) {
+    header h1{
+        font-size: 20px;
+        margin-left: 90px;
+    }
+    main{
+        display: block;
+
+    }
+    .card{
+        margin-left: 90px;
+    }
+    
+}
